@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const ejs = require("ejs");
-const PORT = 5100;
+const port = process.env.PORT || 4000;
 const HOST = '0.0.0.0';
 const cookieParser = require("cookie-parser");
 
@@ -24,8 +24,8 @@ app.get("*", (req, res) => {
 })
 
 
-app.listen(PORT, () => {
-  console.log(`Server is running on http://${HOST}:${PORT}`);
+app.listen(port, () => {
+  console.log(``);
 });
 
 require('dotenv').config();
