@@ -24,7 +24,7 @@ app.get("*", (req, res) => {
 })
 
 
-app.listen(PORT, HOST, () => {
+app.listen(PORT, () => {
   console.log(`Server is running on http://${HOST}:${PORT}`);
 });
 
