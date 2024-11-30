@@ -14,6 +14,7 @@ exports.getLoginPage = (req, res) => {
     }
 };
 
+
 exports.loginAdmin = (req, res) => {
     let { email, password } = req.body;
     let mail = "captone@gmail.com";
