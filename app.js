@@ -36,6 +36,6 @@ _db.connectToServer((err) => {
         process.exit();
     }
     else {
-      console.log("Database connected successfully!");
+      console.log("Database connected successfully");
     }
 });
