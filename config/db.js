@@ -11,7 +11,6 @@ module.exports = {
             let x = await mongo_client.connect(url);
             _db = x.db("waste_management_system");
             console.log("DB Connected");
-            console.log("Live website: http://127.0.0.1:4000/");
 
 
             // Create a user table if there is no user table
